@@ -1,6 +1,6 @@
-## SublimeText配置文件
+//// SublimeText配置文件
 
-#### 序列号
+//////// 序列号
 注意：该序列号对3095版本适用。  
 ```
 ----- BEGIN LICENSE -----
@@ -18,7 +18,7 @@ FCCC7561 8A4A1741 68FA4223 ADCEDE07
 ------ END LICENSE ------
 ```
 
-#### 具体步骤
+//////// 具体步骤
 - 官网下载SublimeText 3 Build最新版本（或者3095版本）。
 - 安装启动，输入序列号。
 - 打开终端并输入：
@@ -31,8 +31,8 @@ rm -rf subl_config
 - 在SublimeText中使用ctrl + `打开终端面板，安装Package Control。  
 Package Control安装过程中根据User目录中的配置文件，将自动安装所有插件以及你自己的所有个性化设置。
 
-#### 配置文件注释
-```json
+//////// 配置文件注释
+```javascript
 {
     // 显示minimap的当前位置
     "always_show_minimap_viewport": true,

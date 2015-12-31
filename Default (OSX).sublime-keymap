@@ -1,0 +1,59 @@
+[
+    // html format
+    {
+        "keys": ["super+alt+h"],
+        "command": "htmlprettify"
+    },
+    // Convert to Expanded Format
+    {
+        "keys": ["super+alt+["],
+        "command": "css_format",
+        "args": {
+            "action": "expand"
+        }
+    },
+    // Convert to Compact Format
+    {
+        "keys": ["super+alt+]"],
+        "command": "css_format",
+        "args": {
+            "action": "compact"
+        }
+    },
+    // Convert to Compressed Format
+    {
+        "keys": ["super+alt+\\"],
+        "command": "css_format",
+        "args": {
+            "action": "compress"
+        }
+    },
+    // js/json format
+    {
+        "keys": ["super+alt+j"],
+        "command": "js_format",
+        "context": [{
+            "key": "selector",
+            "operator": "equal",
+            "operand": "source.js,source.json"
+        }]
+    },
+    // markdown
+    {
+        "keys": ["super+alt+m"],
+        "command": "markdown_preview",
+        "args": {
+            "target": "browser",
+            "parser": "markdown"
+        }
+    },
+    // reindent快捷键自定义
+    // 命令面板 - Renindent Lines
+    {
+        "keys": ["shift+tab"],
+        "command": "reindent",
+        "args": {
+            "single_line": true
+        }
+    }
+]

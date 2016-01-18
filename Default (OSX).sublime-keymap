@@ -60,5 +60,13 @@
         "args": {
             "single_line": true
         }
+    },
+    // 选中引号内的内容，包含引号。
+    {
+        "keys": ["super+shift+m"],
+        "command": "expand_selection",
+        "args": {
+            "to": "scope"
+        }
     }
 ]

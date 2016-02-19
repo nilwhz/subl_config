@@ -33,7 +33,8 @@ Package Control安装过程中根据User目录中的配置文件，将自动安�
     // sidebar中不显示的文件
     "file_exclude_patterns":
     [
-        ".DS_Store"
+        ".DS_Store",
+        "*.pyc",
     ],
     // sidebar中不显示的文件夹
     "folder_exclude_patterns":
@@ -66,9 +67,9 @@ Package Control安装过程中根据User目录中的配置文件，将自动安�
         "draw_active"
     ],
     // 行距
-    "line_padding_bottom": 3,
+    "line_padding_bottom": 2,
     // 行距
-    "line_padding_top": 3,
+    "line_padding_top": 2,
     // 只有上下拉动页面的时候，才显示滚动条
     "overlay_scroll_bars": "enabled",
     // 让文件最后一行离底部有一段距离的高度

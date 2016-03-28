@@ -1,0 +1,91 @@
+{
+	"9o.hist./Users/vwhz/go/src/dbcode":
+	[
+		"go run dbcode.go",
+		"go vet",
+		"go run mysql.go"
+	],
+	"9o.hist./Users/vwhz/go/src/demo":
+	[
+		"go run go run papa.go",
+		"clear",
+		"go run papa.go"
+	],
+	"9o.hist./Users/vwhz/go/src/github.com/bitw404":
+	[
+		"go vet hello",
+		"go vet github.com/bitw404/hello",
+		"cd hello"
+	],
+	"9o.hist./Users/vwhz/go/src/github.com/bitw404/hello":
+	[
+		"go vet hello",
+		"cd ..",
+		"go vet .",
+		"go fmt",
+		"hello test memeda feifei",
+		"hello memeda haha hehe",
+		"hello gaga gugu",
+		"hello ff sett",
+		"hello fafa dfsaf fdsa helo gag huhu",
+		"clear",
+		"go vet",
+		"go install",
+		"hello",
+		"mv hello /Users/vwhz/go/bin",
+		"go build",
+		"mv hello ~/go/bin"
+	],
+	"9o.hist./Users/vwhz/go/src/github.com/nilwhz/lagou/crawler":
+	[
+		"clear"
+	],
+	"9o.hist./Users/vwhz/go/src/github.com/nilwhz/lagou/web":
+	[
+		"clear"
+	],
+	"9o.hist./Users/vwhz/go/src/hello":
+	[
+		"ls",
+		"hello",
+		"mv hello ~/",
+		"./hello test.txt",
+		"go clean",
+		"go run test.txt",
+		"go run hello.go test.txt",
+		"go fmt",
+		"go build",
+		"./hello",
+		"go vet",
+		"go install",
+		"clear",
+		"go run hello.go"
+	],
+	"9o.hist./Users/vwhz/go/src/papa":
+	[
+		"go get"
+	],
+	"9o.hist./Users/vwhz/go/src/test":
+	[
+		"clear",
+		"go run test.go"
+	],
+	"9o.hist./Users/vwhz/go/src/tt":
+	[
+		"go run",
+		"go run tt.go https://www.baidu.com http://www.8kana.com",
+		"go run tt.go https://www.baidu.com http://www.8kana.com https://www.zhihu.com",
+		"go vet",
+		"go install kk.go",
+		"go install kk",
+		"go install",
+		"tt",
+		"go go run tt.go",
+		"clear",
+		"go run tt.go",
+		"go build"
+	],
+	"ann": "a16.03.22-1",
+	"install_version": "r16.03.22-1",
+	"version": "r16.03.22-1"
+}

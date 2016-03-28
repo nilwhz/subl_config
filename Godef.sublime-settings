@@ -1,0 +1,9 @@
+{
+    // Copy this file to Settings - User
+    // Set your real GOPATH in user's Godef.sublime-settings
+    // For example:
+    // "goroot": "/Users/zippo/Go",
+    "gopath": "/Users/vwhz/go"
+    // For activating vendor experiment
+    //"GO15VENDOREXPERIMENT": "1"
+}
